@@ -3,9 +3,9 @@ import pandas as pd
 
 input_file = [
     # Training Dataset
-    os.getenv("TRAINING_INPUT_FILE", "/media/Personal/Project/DDoS_attack/Data/ExternalData/csv/Kaggle/train/LDAP-training.csv"),
+    os.getenv("TRAINING_INPUT_FILE"),
     # Testing Dataset
-    os.getenv("TESTING_INPUT_FILE", "/media/Personal/Project/DDoS_attack/Data/ExternalData/csv/Kaggle/test/LDAP-testing.csv")
+    os.getenv("TESTING_INPUT_FILE")
 ]
 output_file = [
     # Training Dataset
